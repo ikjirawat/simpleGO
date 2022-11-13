@@ -19,11 +19,13 @@ func main() {
 	eieiei
 	eiei`
 	fmt.Println(test)
+
 	// -------------------------------------------------------------//
 
-	var title, year, rate, group, isSuperhero = "Avengers: Endgame", 2019, 8.4, "Sci-Fi", true
+	var title, year, rate, genre, isSuperhero = "Avengers: Endgame", 2019, 8.4, "Sci-Fi", true
 	var fav rune = '⭐'
 
-	fmt.Printf(" เรื่อง: %s\n ปี: %d\n เรตติ้ง: %.1f\n ประเภท: %s\n ซุปเปอร์ฮีโร่: %t\n เรื่องโปรด: %c", title, year, rate, group, isSuperhero, fav)
+	fmt.Printf(" เรื่อง: %s\n ปี: %d\n เรตติ้ง: %.1f\n ประเภท: %s\n ซุปเปอร์ฮีโร่: %t\n เรื่องโปรด: %c", title, year, rate, genre, isSuperhero, fav)
 
+	// -------------------------------------------------------------//
 }
